@@ -1,0 +1,40 @@
+name: sample_project2
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: ^4.3.8
+  volume: ^1.0.1
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^1.0.0
+  lints: 1.0.1
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
+  assets:
+    - assets/icon1.png
+    - assets/main_button.png
+    - assets/avatar.png
+    - assets/left_play_icon.png
+    - assets/play_container.png
+    - assets/play_icon.png
+    - assets/right_play_icon.png
+    - assets/volume.png
+    - assets/outlined_heart.png
+    - assets/filled_heart.png
+    - assets/1.png
+    - assets/2.png
+    - assets/3.png
+    - assets/4.png
+    - assets/5.png
+    - assets/6.png
